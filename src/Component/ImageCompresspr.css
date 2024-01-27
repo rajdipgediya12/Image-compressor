@@ -1,0 +1,57 @@
+/* ImageCompressor.css */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+  
+  .custom-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-container:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .btn-dark {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #ffffff;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #2180b9;
+  }
+  
+  .card {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ht {
+    max-height: 200px;
+    transition: max-height 0.3s ease;
+  }
+  
+  .ht-placeholder {
+    height: 200px;
+  }
+  
+  h1,
+  h3 {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
